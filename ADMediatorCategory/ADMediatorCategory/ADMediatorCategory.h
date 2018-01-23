@@ -9,5 +9,6 @@
 #ifndef ADMediatorCategory_h
 #define ADMediatorCategory_h
 
+#import "ADMediator+MineModule.h"
 
 #endif /* ADMediatorCategory_h */

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADMediatorCategory"
-  s.version      = "1"
+  s.version      = "2"
   s.summary      = "ADMediatorCategory."
   s.description  = <<-DESC
                     this is ADMediatorCategory
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
   s.requires_arc = true
 
+  s.dependency "ADMediator"
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "CTNetworking"
   # s.dependency "CTAPIManagers"
   # s.dependency "CTMediator"
 

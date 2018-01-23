@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28586876F1B12EE5FED8F052 /* libPods-ADMediatorCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0296D2ABCED61CDD22951C /* libPods-ADMediatorCategory.a */; };
+		A139952D2016E2AC00447313 /* ADMediator+MineModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A139952C2016E2AC00447313 /* ADMediator+MineModule.m */; };
 		A1C8F8462011E0B400AD9643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8F8452011E0B400AD9643 /* AppDelegate.m */; };
 		A1C8F8492011E0B400AD9643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8F8482011E0B400AD9643 /* ViewController.m */; };
 		A1C8F84C2011E0B400AD9643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C8F84A2011E0B400AD9643 /* Main.storyboard */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		449BFAA3F1DF899275F3265E /* Pods-ADMediatorCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMediatorCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADMediatorCategory/Pods-ADMediatorCategory.debug.xcconfig"; sourceTree = "<group>"; };
+		A139952B2016E2AC00447313 /* ADMediator+MineModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADMediator+MineModule.h"; sourceTree = "<group>"; };
+		A139952C2016E2AC00447313 /* ADMediator+MineModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ADMediator+MineModule.m"; sourceTree = "<group>"; };
 		A1C8F8412011E0B400AD9643 /* ADMediatorCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADMediatorCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C8F8442011E0B400AD9643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1C8F8452011E0B400AD9643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,6 +32,8 @@
 		A1C8F8522011E0B400AD9643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C8F8532011E0B400AD9643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1C8F8A52011E9FD00AD9643 /* ADMediatorCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMediatorCategory.h; sourceTree = "<group>"; };
+		DA0296D2ABCED61CDD22951C /* libPods-ADMediatorCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADMediatorCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BA103DAB119D7A65C1C3B4 /* Pods-ADMediatorCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMediatorCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADMediatorCategory/Pods-ADMediatorCategory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28586876F1B12EE5FED8F052 /* libPods-ADMediatorCategory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		564554C205CB81667D4CF197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA0296D2ABCED61CDD22951C /* libPods-ADMediatorCategory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A1C8F8382011E0B400AD9643 = {
 			isa = PBXGroup;
 			children = (
 				A1C8F8432011E0B400AD9643 /* ADMediatorCategory */,
 				A1C8F8422011E0B400AD9643 /* Products */,
+				B0DDDD9ED0DB7780609BB879 /* Pods */,
+				564554C205CB81667D4CF197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +95,19 @@
 			isa = PBXGroup;
 			children = (
 				A1C8F8A52011E9FD00AD9643 /* ADMediatorCategory.h */,
+				A139952B2016E2AC00447313 /* ADMediator+MineModule.h */,
+				A139952C2016E2AC00447313 /* ADMediator+MineModule.m */,
 			);
 			path = ADMediatorCategory;
+			sourceTree = "<group>";
+		};
+		B0DDDD9ED0DB7780609BB879 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				449BFAA3F1DF899275F3265E /* Pods-ADMediatorCategory.debug.xcconfig */,
+				F5BA103DAB119D7A65C1C3B4 /* Pods-ADMediatorCategory.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1C8F8572011E0B400AD9643 /* Build configuration list for PBXNativeTarget "ADMediatorCategory" */;
 			buildPhases = (
+				441E8CB905C9E70822D0DDD6 /* [CP] Check Pods Manifest.lock */,
 				A1C8F83D2011E0B400AD9643 /* Sources */,
 				A1C8F83E2011E0B400AD9643 /* Frameworks */,
 				A1C8F83F2011E0B400AD9643 /* Resources */,
+				4AF52E01F8C1225C1364AB7D /* [CP] Embed Pods Frameworks */,
+				6432EEB2A6B669F34F44AFC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,6 +179,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		441E8CB905C9E70822D0DDD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ADMediatorCategory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AF52E01F8C1225C1364AB7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADMediatorCategory/Pods-ADMediatorCategory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6432EEB2A6B669F34F44AFC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADMediatorCategory/Pods-ADMediatorCategory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1C8F83D2011E0B400AD9643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -154,6 +237,7 @@
 			files = (
 				A1C8F8492011E0B400AD9643 /* ViewController.m in Sources */,
 				A1C8F8542011E0B400AD9643 /* main.m in Sources */,
+				A139952D2016E2AC00447313 /* ADMediator+MineModule.m in Sources */,
 				A1C8F8462011E0B400AD9643 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +370,7 @@
 		};
 		A1C8F8582011E0B400AD9643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449BFAA3F1DF899275F3265E /* Pods-ADMediatorCategory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +385,7 @@
 		};
 		A1C8F8592011E0B400AD9643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BA103DAB119D7A65C1C3B4 /* Pods-ADMediatorCategory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
