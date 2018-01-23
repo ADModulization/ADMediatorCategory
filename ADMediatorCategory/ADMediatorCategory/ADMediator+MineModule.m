@@ -8,13 +8,13 @@
 
 #import "ADMediator+MineModule.h"
 
-static NSString *const admMineViewController = @"ADMineViewController";
+static NSString *const admMineTarget = @"ADMineTarget";
 
 @implementation ADMediator (MineModule)
 
 - (NSString *)adm_mineChangeBackgroundColor:(UIColor *)color
 {
-    return [self performTarget:admMineViewController action:@"changeBackgroundColor:" params:@{@"backgroundColor" : color}];
+    return [self performTarget:admMineTarget action:@"changeBackgroundColor:" params:@{@"backgroundColor" : color}];
 }
 
 @end
