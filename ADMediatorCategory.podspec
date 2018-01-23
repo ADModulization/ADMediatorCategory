@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADMediatorCategory"
-  s.version      = "2"
+  s.version      = "3"
   s.summary      = "ADMediatorCategory."
   s.description  = <<-DESC
                     this is ADMediatorCategory
