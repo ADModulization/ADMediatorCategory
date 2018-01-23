@@ -1,0 +1,6 @@
+framework module ADMediator {
+  umbrella header "ADMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

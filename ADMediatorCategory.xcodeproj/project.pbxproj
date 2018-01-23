@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28586876F1B12EE5FED8F052 /* libPods-ADMediatorCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0296D2ABCED61CDD22951C /* libPods-ADMediatorCategory.a */; };
+		46DC14D8F00E24E910122FB2 /* Pods_ADMediatorCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFCE2A8D3F0065A40210CAF /* Pods_ADMediatorCategory.framework */; };
 		A139952D2016E2AC00447313 /* ADMediator+MineModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A139952C2016E2AC00447313 /* ADMediator+MineModule.m */; };
 		A1C8F8462011E0B400AD9643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8F8452011E0B400AD9643 /* AppDelegate.m */; };
 		A1C8F8492011E0B400AD9643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8F8482011E0B400AD9643 /* ViewController.m */; };
@@ -32,7 +32,7 @@
 		A1C8F8522011E0B400AD9643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C8F8532011E0B400AD9643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1C8F8A52011E9FD00AD9643 /* ADMediatorCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADMediatorCategory.h; sourceTree = "<group>"; };
-		DA0296D2ABCED61CDD22951C /* libPods-ADMediatorCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADMediatorCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFCE2A8D3F0065A40210CAF /* Pods_ADMediatorCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADMediatorCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BA103DAB119D7A65C1C3B4 /* Pods-ADMediatorCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMediatorCategory.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADMediatorCategory/Pods-ADMediatorCategory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28586876F1B12EE5FED8F052 /* libPods-ADMediatorCategory.a in Frameworks */,
+				46DC14D8F00E24E910122FB2 /* Pods_ADMediatorCategory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +51,7 @@
 		564554C205CB81667D4CF197 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DA0296D2ABCED61CDD22951C /* libPods-ADMediatorCategory.a */,
+				DFFCE2A8D3F0065A40210CAF /* Pods_ADMediatorCategory.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,9 +204,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ADMediatorCategory/Pods-ADMediatorCategory-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ADMediator/ADMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

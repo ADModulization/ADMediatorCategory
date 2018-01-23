@@ -6,7 +6,7 @@
 //  Copyright © 2018 Andy. All rights reserved.
 //
 
-#import "ADMediator.h"
+#import <ADMediator/ADMediator.h>
 
 @interface ADMediator (MineModule)
 

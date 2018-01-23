@@ -7,93 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		151313D810F0A1AAB48FE1EF2E4077EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1D64B21F93A57DB9C6EC1F4A684594A4 /* Pods-ADMediatorCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE23181EDF4E8AB8A2BF7918AAF1B76 /* Pods-ADMediatorCategory-dummy.m */; };
-		1F8CA1FB4215A6CBC45D5D6BC0D8C62C /* ADMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E059B449E7416EA7E76C06DE6C0CDC8 /* ADMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		349908D20B3F3C853C1771D22F02895D /* ADMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 010E9EDE67A6FB5328509B59B73EC477 /* ADMediator-dummy.m */; };
-		6F308C1556172930358E4C02A31AA345 /* ADMediatorExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D23FBF1A228E3C2BCCDBBC8BFF1A012 /* ADMediatorExceptionHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9A31A481D4DB6492B026D7F3749DBAD5 /* ADMediatorExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 35073CAF34E0A025CB37E9E993E26137 /* ADMediatorExceptionHandler.m */; };
-		A45F4E38AFC7D3048C9A3510CADEFADB /* ADMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1E5818BEE33408E7FB4ACC815DFB8D /* ADMediator.m */; };
-		C7E2849671A39549861423E559D6D9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		661F4D2F55DD7EF6EB558D0772DC6933 /* Pods-ADMediatorCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E4DAFD426A77EB89470FDB45CB024 /* Pods-ADMediatorCategory-dummy.m */; };
+		72ECEECEE80DDDBA37B35852BAC8E2FE /* ADMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E50FBE31BB12DB37F13F855BB352072E /* ADMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FDDFBE03BDE6BC6C5E25761D2C6D06C /* Pods-ADMediatorCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA673BC45BAC60491568D1B677C992C /* Pods-ADMediatorCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958555CA8B3DB658A1CF479B52F6D8D9 /* ADMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 563DC997C891326EB809CC4E96F9E061 /* ADMediator-dummy.m */; };
+		C665FEF600336A8D025A335C558AFE72 /* ADMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D4500525B639DC3B54D1ADBEE1234C3E /* ADMediator.m */; };
+		D2897EA8DFF89C34418E6415556578D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D8AB1F2377AC27E1165D7CF3673AD2DF /* ADMediatorExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 825C79F8DDF3ADEC4B1424A58EE90B2D /* ADMediatorExceptionHandler.m */; };
+		E2E211FFDAF6284C3C2FFF9A4DF564B5 /* ADMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = FD579C3007C1171ADAB9DE98F20A5BF8 /* ADMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EACCC79D355C1042F62ED769B6A151C7 /* ADMediatorExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B22D734EAE2F054AD36DA7617F7E8C /* ADMediatorExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB1CA9ACDCEC14F3635A3DFF9F0AB63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		134DE50DBB297F37D2D2DAED78EF0127 /* PBXContainerItemProxy */ = {
+		EBE5FF261B393ACEE3A1E3B1A22144F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FA6B2F50A713C3EBE1577765D008962C;
+			remoteGlobalIDString = 1914EF4EC725CDF2927C544792678579;
 			remoteInfo = ADMediator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010E9EDE67A6FB5328509B59B73EC477 /* ADMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADMediator-dummy.m"; sourceTree = "<group>"; };
-		0ECCDE5AED44D4E612975C482F87BA72 /* libADMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libADMediator.a; path = libADMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		25F2D9FD04EC4A16B96CE26FD985F73E /* Pods-ADMediatorCategory-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADMediatorCategory-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2D23FBF1A228E3C2BCCDBBC8BFF1A012 /* ADMediatorExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADMediatorExceptionHandler.h; path = ADMediator/ADMediator/ADMediatorExceptionHandler.h; sourceTree = "<group>"; };
-		3506D504767B515EA475D13F3526C58F /* libPods-ADMediatorCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ADMediatorCategory.a"; path = "libPods-ADMediatorCategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		35073CAF34E0A025CB37E9E993E26137 /* ADMediatorExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADMediatorExceptionHandler.m; path = ADMediator/ADMediator/ADMediatorExceptionHandler.m; sourceTree = "<group>"; };
-		485720AD3F5C475AB3249A39B8F1850C /* ADMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADMediator-prefix.pch"; sourceTree = "<group>"; };
-		4C1E5818BEE33408E7FB4ACC815DFB8D /* ADMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADMediator.m; path = ADMediator/ADMediator/ADMediator.m; sourceTree = "<group>"; };
-		4E059B449E7416EA7E76C06DE6C0CDC8 /* ADMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADMediator.h; path = ADMediator/ADMediator/ADMediator.h; sourceTree = "<group>"; };
-		5CBDBEC2ED4C8840396428E2341CA342 /* Pods-ADMediatorCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADMediatorCategory.debug.xcconfig"; sourceTree = "<group>"; };
-		60D644AAA15D7B949A0B09221A480170 /* ADMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMediator.xcconfig; sourceTree = "<group>"; };
+		08968860FFFE516605C8075DAA00F321 /* Pods-ADMediatorCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ADMediatorCategory.modulemap"; sourceTree = "<group>"; };
+		1EA673BC45BAC60491568D1B677C992C /* Pods-ADMediatorCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADMediatorCategory-umbrella.h"; sourceTree = "<group>"; };
+		22999EC6494E2881E7DFB9FD8A8B60E0 /* Pods-ADMediatorCategory-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADMediatorCategory-frameworks.sh"; sourceTree = "<group>"; };
+		22AF0B0206CDF2B6CCF27782B983FF11 /* ADMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ADMediator.framework; path = ADMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F165F8B1633525475089BACBACA4A0 /* Pods_ADMediatorCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADMediatorCategory.framework; path = "Pods-ADMediatorCategory.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B22D734EAE2F054AD36DA7617F7E8C /* ADMediatorExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADMediatorExceptionHandler.h; path = ADMediator/ADMediator/ADMediatorExceptionHandler.h; sourceTree = "<group>"; };
+		563DC997C891326EB809CC4E96F9E061 /* ADMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADMediator-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77EFD6546CC0D2B6F65832A29E8F4DED /* Pods-ADMediatorCategory-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADMediatorCategory-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E2454CCFB970EEBA8DA709E4361214D /* Pods-ADMediatorCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADMediatorCategory.release.xcconfig"; sourceTree = "<group>"; };
+		825C79F8DDF3ADEC4B1424A58EE90B2D /* ADMediatorExceptionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADMediatorExceptionHandler.m; path = ADMediator/ADMediator/ADMediatorExceptionHandler.m; sourceTree = "<group>"; };
+		891799325DA6CBDFC48FD594E560E95D /* ADMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMediator.xcconfig; sourceTree = "<group>"; };
+		922B647EA9AEEAA7BFAFBE8C8C760942 /* ADMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ADMediator.modulemap; sourceTree = "<group>"; };
+		922C5F98761887B44B028640F4D55A01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D0819179280F1148620756DAF1AE9506 /* Pods-ADMediatorCategory-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADMediatorCategory-acknowledgements.plist"; sourceTree = "<group>"; };
-		E083BF3BD835AA32A519D390F7D53912 /* Pods-ADMediatorCategory-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADMediatorCategory-resources.sh"; sourceTree = "<group>"; };
-		F9D6302D443E5393015AF66ED1D3A546 /* Pods-ADMediatorCategory-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADMediatorCategory-frameworks.sh"; sourceTree = "<group>"; };
-		FDE23181EDF4E8AB8A2BF7918AAF1B76 /* Pods-ADMediatorCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADMediatorCategory-dummy.m"; sourceTree = "<group>"; };
-		FFBEA83FAEAA590964D8A3C0A997679C /* Pods-ADMediatorCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADMediatorCategory.release.xcconfig"; sourceTree = "<group>"; };
+		9E2E4DAFD426A77EB89470FDB45CB024 /* Pods-ADMediatorCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADMediatorCategory-dummy.m"; sourceTree = "<group>"; };
+		AC757F19FCE84221002C7B3378AD61B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7D9224B41C695EA7F1063064ECBED8 /* Pods-ADMediatorCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADMediatorCategory.debug.xcconfig"; sourceTree = "<group>"; };
+		D4500525B639DC3B54D1ADBEE1234C3E /* ADMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADMediator.m; path = ADMediator/ADMediator/ADMediator.m; sourceTree = "<group>"; };
+		E50FBE31BB12DB37F13F855BB352072E /* ADMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADMediator-umbrella.h"; sourceTree = "<group>"; };
+		EE91C4B12DE036B84FCDE7A5CCF6E509 /* Pods-ADMediatorCategory-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADMediatorCategory-resources.sh"; sourceTree = "<group>"; };
+		F35A47857F35051640822A0743FBF94A /* ADMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADMediator-prefix.pch"; sourceTree = "<group>"; };
+		FD579C3007C1171ADAB9DE98F20A5BF8 /* ADMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADMediator.h; path = ADMediator/ADMediator/ADMediator.h; sourceTree = "<group>"; };
+		FF8818C4EE9832D90F355A50E7B8436B /* Pods-ADMediatorCategory-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADMediatorCategory-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7AD2B09CD461D76A681F6D434E62A78E /* Frameworks */ = {
+		3B077A1B2564007AD0895C8FC59CF3F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				151313D810F0A1AAB48FE1EF2E4077EB /* Foundation.framework in Frameworks */,
+				D2897EA8DFF89C34418E6415556578D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B237BE523CDFF4B560E8438E1E71E8D /* Frameworks */ = {
+		F30B51645F81BC3627F5792FCC075EE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E2849671A39549861423E559D6D9CF /* Foundation.framework in Frameworks */,
+				FEB1CA9ACDCEC14F3635A3DFF9F0AB63 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B09826B5037F75A728226C0C7EBED04 /* Support Files */ = {
+		268BB3761DD622DF2427E0980AEF2829 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				60D644AAA15D7B949A0B09221A480170 /* ADMediator.xcconfig */,
-				010E9EDE67A6FB5328509B59B73EC477 /* ADMediator-dummy.m */,
-				485720AD3F5C475AB3249A39B8F1850C /* ADMediator-prefix.pch */,
+				922B647EA9AEEAA7BFAFBE8C8C760942 /* ADMediator.modulemap */,
+				891799325DA6CBDFC48FD594E560E95D /* ADMediator.xcconfig */,
+				563DC997C891326EB809CC4E96F9E061 /* ADMediator-dummy.m */,
+				F35A47857F35051640822A0743FBF94A /* ADMediator-prefix.pch */,
+				E50FBE31BB12DB37F13F855BB352072E /* ADMediator-umbrella.h */,
+				922C5F98761887B44B028640F4D55A01 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ADMediator";
 			sourceTree = "<group>";
 		};
-		650A257216B2C73D3599EF2E0EEE0AEB /* Products */ = {
+		3C5218E8E6C1C4B0EE1BE2FF16784EAC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0ECCDE5AED44D4E612975C482F87BA72 /* libADMediator.a */,
-				3506D504767B515EA475D13F3526C58F /* libPods-ADMediatorCategory.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7C95A7919E38D49D5011816ED920BE6F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C7B2C9D9145EC0053ED1B140823E6F19 /* Pods-ADMediatorCategory */,
+				4C40B6C6EE90360EF168D5074520D5FB /* Pods-ADMediatorCategory */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C40B6C6EE90360EF168D5074520D5FB /* Pods-ADMediatorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				AC757F19FCE84221002C7B3378AD61B6 /* Info.plist */,
+				08968860FFFE516605C8075DAA00F321 /* Pods-ADMediatorCategory.modulemap */,
+				FF8818C4EE9832D90F355A50E7B8436B /* Pods-ADMediatorCategory-acknowledgements.markdown */,
+				77EFD6546CC0D2B6F65832A29E8F4DED /* Pods-ADMediatorCategory-acknowledgements.plist */,
+				9E2E4DAFD426A77EB89470FDB45CB024 /* Pods-ADMediatorCategory-dummy.m */,
+				22999EC6494E2881E7DFB9FD8A8B60E0 /* Pods-ADMediatorCategory-frameworks.sh */,
+				EE91C4B12DE036B84FCDE7A5CCF6E509 /* Pods-ADMediatorCategory-resources.sh */,
+				1EA673BC45BAC60491568D1B677C992C /* Pods-ADMediatorCategory-umbrella.h */,
+				CC7D9224B41C695EA7F1063064ECBED8 /* Pods-ADMediatorCategory.debug.xcconfig */,
+				7E2454CCFB970EEBA8DA709E4361214D /* Pods-ADMediatorCategory.release.xcconfig */,
+			);
+			name = "Pods-ADMediatorCategory";
+			path = "Target Support Files/Pods-ADMediatorCategory";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -102,22 +122,18 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E30820521DBDB889532316F974319399 /* Pods */,
-				650A257216B2C73D3599EF2E0EEE0AEB /* Products */,
-				7C95A7919E38D49D5011816ED920BE6F /* Targets Support Files */,
+				B9F6FB2A3AC4D639949FE194F370910A /* Products */,
+				3C5218E8E6C1C4B0EE1BE2FF16784EAC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		94E70C9D09A264529D47147E231C1B82 /* ADMediator */ = {
+		B9F6FB2A3AC4D639949FE194F370910A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E059B449E7416EA7E76C06DE6C0CDC8 /* ADMediator.h */,
-				4C1E5818BEE33408E7FB4ACC815DFB8D /* ADMediator.m */,
-				2D23FBF1A228E3C2BCCDBBC8BFF1A012 /* ADMediatorExceptionHandler.h */,
-				35073CAF34E0A025CB37E9E993E26137 /* ADMediatorExceptionHandler.m */,
-				4B09826B5037F75A728226C0C7EBED04 /* Support Files */,
+				22AF0B0206CDF2B6CCF27782B983FF11 /* ADMediator.framework */,
+				28F165F8B1633525475089BACBACA4A0 /* Pods_ADMediatorCategory.framework */,
 			);
-			name = ADMediator;
-			path = ADMediator;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -128,19 +144,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C7B2C9D9145EC0053ED1B140823E6F19 /* Pods-ADMediatorCategory */ = {
+		D07A30D4C6004CBD333347681CF31B36 /* ADMediator */ = {
 			isa = PBXGroup;
 			children = (
-				25F2D9FD04EC4A16B96CE26FD985F73E /* Pods-ADMediatorCategory-acknowledgements.markdown */,
-				D0819179280F1148620756DAF1AE9506 /* Pods-ADMediatorCategory-acknowledgements.plist */,
-				FDE23181EDF4E8AB8A2BF7918AAF1B76 /* Pods-ADMediatorCategory-dummy.m */,
-				F9D6302D443E5393015AF66ED1D3A546 /* Pods-ADMediatorCategory-frameworks.sh */,
-				E083BF3BD835AA32A519D390F7D53912 /* Pods-ADMediatorCategory-resources.sh */,
-				5CBDBEC2ED4C8840396428E2341CA342 /* Pods-ADMediatorCategory.debug.xcconfig */,
-				FFBEA83FAEAA590964D8A3C0A997679C /* Pods-ADMediatorCategory.release.xcconfig */,
+				FD579C3007C1171ADAB9DE98F20A5BF8 /* ADMediator.h */,
+				D4500525B639DC3B54D1ADBEE1234C3E /* ADMediator.m */,
+				31B22D734EAE2F054AD36DA7617F7E8C /* ADMediatorExceptionHandler.h */,
+				825C79F8DDF3ADEC4B1424A58EE90B2D /* ADMediatorExceptionHandler.m */,
+				268BB3761DD622DF2427E0980AEF2829 /* Support Files */,
 			);
-			name = "Pods-ADMediatorCategory";
-			path = "Target Support Files/Pods-ADMediatorCategory";
+			name = ADMediator;
+			path = ADMediator;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -154,7 +168,7 @@
 		E30820521DBDB889532316F974319399 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				94E70C9D09A264529D47147E231C1B82 /* ADMediator */,
+				D07A30D4C6004CBD333347681CF31B36 /* ADMediator */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,42 +176,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D7FA9B59AB6DECDAE71E6B5302BA39DF /* Headers */ = {
+		9C7E4407B21239CE67562AF0952AA847 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8CA1FB4215A6CBC45D5D6BC0D8C62C /* ADMediator.h in Headers */,
-				6F308C1556172930358E4C02A31AA345 /* ADMediatorExceptionHandler.h in Headers */,
+				8FDDFBE03BDE6BC6C5E25761D2C6D06C /* Pods-ADMediatorCategory-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D170D575F560F4D0F3EE27F0D751D78E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECEECEE80DDDBA37B35852BAC8E2FE /* ADMediator-umbrella.h in Headers */,
+				E2E211FFDAF6284C3C2FFF9A4DF564B5 /* ADMediator.h in Headers */,
+				EACCC79D355C1042F62ED769B6A151C7 /* ADMediatorExceptionHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5A5A5B2E7BE30FB93116A8B11897A4D4 /* Pods-ADMediatorCategory */ = {
+		1914EF4EC725CDF2927C544792678579 /* ADMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62386A7DA2ED87B6EE5D11DFCDBE0D37 /* Build configuration list for PBXNativeTarget "Pods-ADMediatorCategory" */;
+			buildConfigurationList = 5E7F5C683D2595AEBEE30009AFC3438F /* Build configuration list for PBXNativeTarget "ADMediator" */;
 			buildPhases = (
-				C8228451942F3CE400569CE52BA8559C /* Sources */,
-				7AD2B09CD461D76A681F6D434E62A78E /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CDCEA1C8291D9D516965612AA8684927 /* PBXTargetDependency */,
-			);
-			name = "Pods-ADMediatorCategory";
-			productName = "Pods-ADMediatorCategory";
-			productReference = 3506D504767B515EA475D13F3526C58F /* libPods-ADMediatorCategory.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		FA6B2F50A713C3EBE1577765D008962C /* ADMediator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DBCF067704665013562F17EAEB63CD4 /* Build configuration list for PBXNativeTarget "ADMediator" */;
-			buildPhases = (
-				94A7D55FB747A8479360A7DDCB6D7CF4 /* Sources */,
-				8B237BE523CDFF4B560E8438E1E71E8D /* Frameworks */,
-				D7FA9B59AB6DECDAE71E6B5302BA39DF /* Headers */,
+				CB40C0967CA9F961322860D1D8E979A1 /* Sources */,
+				F30B51645F81BC3627F5792FCC075EE5 /* Frameworks */,
+				D170D575F560F4D0F3EE27F0D751D78E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -205,8 +211,26 @@
 			);
 			name = ADMediator;
 			productName = ADMediator;
-			productReference = 0ECCDE5AED44D4E612975C482F87BA72 /* libADMediator.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 22AF0B0206CDF2B6CCF27782B983FF11 /* ADMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F211F66DA5A86259C76E60FEF75EE54A /* Pods-ADMediatorCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8027A75D6D9358AE71F383AF59B37D0 /* Build configuration list for PBXNativeTarget "Pods-ADMediatorCategory" */;
+			buildPhases = (
+				6DCDAF7740C578C25863B2A1D03B598C /* Sources */,
+				3B077A1B2564007AD0895C8FC59CF3F5 /* Frameworks */,
+				9C7E4407B21239CE67562AF0952AA847 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563D293B7C502C1EBF345D487B2B82C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ADMediatorCategory";
+			productName = "Pods-ADMediatorCategory";
+			productReference = 28F165F8B1633525475089BACBACA4A0 /* Pods_ADMediatorCategory.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -225,47 +249,80 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 650A257216B2C73D3599EF2E0EEE0AEB /* Products */;
+			productRefGroup = B9F6FB2A3AC4D639949FE194F370910A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA6B2F50A713C3EBE1577765D008962C /* ADMediator */,
-				5A5A5B2E7BE30FB93116A8B11897A4D4 /* Pods-ADMediatorCategory */,
+				1914EF4EC725CDF2927C544792678579 /* ADMediator */,
+				F211F66DA5A86259C76E60FEF75EE54A /* Pods-ADMediatorCategory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94A7D55FB747A8479360A7DDCB6D7CF4 /* Sources */ = {
+		6DCDAF7740C578C25863B2A1D03B598C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349908D20B3F3C853C1771D22F02895D /* ADMediator-dummy.m in Sources */,
-				A45F4E38AFC7D3048C9A3510CADEFADB /* ADMediator.m in Sources */,
-				9A31A481D4DB6492B026D7F3749DBAD5 /* ADMediatorExceptionHandler.m in Sources */,
+				661F4D2F55DD7EF6EB558D0772DC6933 /* Pods-ADMediatorCategory-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8228451942F3CE400569CE52BA8559C /* Sources */ = {
+		CB40C0967CA9F961322860D1D8E979A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D64B21F93A57DB9C6EC1F4A684594A4 /* Pods-ADMediatorCategory-dummy.m in Sources */,
+				958555CA8B3DB658A1CF479B52F6D8D9 /* ADMediator-dummy.m in Sources */,
+				C665FEF600336A8D025A335C558AFE72 /* ADMediator.m in Sources */,
+				D8AB1F2377AC27E1165D7CF3673AD2DF /* ADMediatorExceptionHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CDCEA1C8291D9D516965612AA8684927 /* PBXTargetDependency */ = {
+		563D293B7C502C1EBF345D487B2B82C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ADMediator;
-			target = FA6B2F50A713C3EBE1577765D008962C /* ADMediator */;
-			targetProxy = 134DE50DBB297F37D2D2DAED78EF0127 /* PBXContainerItemProxy */;
+			target = 1914EF4EC725CDF2927C544792678579 /* ADMediator */;
+			targetProxy = EBE5FF261B393ACEE3A1E3B1A22144F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		04E13665AC9DF412B88D6C4B4698629C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2454CCFB970EEBA8DA709E4361214D /* Pods-ADMediatorCategory.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADMediatorCategory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADMediatorCategory/Pods-ADMediatorCategory.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ADMediatorCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -326,24 +383,65 @@
 			};
 			name = Debug;
 		};
-		861AEDA3B45EDA7E63ACB76F6ADACD2E /* Release */ = {
+		6A912A48593EE55006BD302093CBBC0D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFBEA83FAEAA590964D8A3C0A997679C /* Pods-ADMediatorCategory.release.xcconfig */;
+			baseConfigurationReference = CC7D9224B41C695EA7F1063064ECBED8 /* Pods-ADMediatorCategory.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADMediatorCategory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADMediatorCategory/Pods-ADMediatorCategory.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ADMediatorCategory;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84B6B6BA6A724DE9485F1DF29D50B573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 891799325DA6CBDFC48FD594E560E95D /* ADMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ADMediator/ADMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ADMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ADMediator/ADMediator.modulemap";
+				PRODUCT_NAME = ADMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -402,81 +500,38 @@
 			};
 			name = Release;
 		};
-		9D8E86B7AC42985EC6B651A5BD4335D8 /* Release */ = {
+		B91EF0DE7430C4E2F095D37CD355B942 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60D644AAA15D7B949A0B09221A480170 /* ADMediator.xcconfig */;
+			baseConfigurationReference = 891799325DA6CBDFC48FD594E560E95D /* ADMediator.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/ADMediator/ADMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ADMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ADMediator/ADMediator.modulemap";
+				PRODUCT_NAME = ADMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EFAFD8AEB6100738E37597D1332BD37A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60D644AAA15D7B949A0B09221A480170 /* ADMediator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ADMediator/ADMediator-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FFA052C91DE18F7970C01E80F1C3BF81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CBDBEC2ED4C8840396428E2341CA342 /* Pods-ADMediatorCategory.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DBCF067704665013562F17EAEB63CD4 /* Build configuration list for PBXNativeTarget "ADMediator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EFAFD8AEB6100738E37597D1332BD37A /* Debug */,
-				9D8E86B7AC42985EC6B651A5BD4335D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -486,11 +541,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62386A7DA2ED87B6EE5D11DFCDBE0D37 /* Build configuration list for PBXNativeTarget "Pods-ADMediatorCategory" */ = {
+		5E7F5C683D2595AEBEE30009AFC3438F /* Build configuration list for PBXNativeTarget "ADMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FFA052C91DE18F7970C01E80F1C3BF81 /* Debug */,
-				861AEDA3B45EDA7E63ACB76F6ADACD2E /* Release */,
+				B91EF0DE7430C4E2F095D37CD355B942 /* Debug */,
+				84B6B6BA6A724DE9485F1DF29D50B573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8027A75D6D9358AE71F383AF59B37D0 /* Build configuration list for PBXNativeTarget "Pods-ADMediatorCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A912A48593EE55006BD302093CBBC0D /* Debug */,
+				04E13665AC9DF412B88D6C4B4698629C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
